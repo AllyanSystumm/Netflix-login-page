@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("qw.jpg"); /* Fixed spacing in the file name */
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Adjusted to 100vh for proper centering */
+    margin: 0;
+}
+
+.login-container {
+    background-color: black;
+    padding: 5%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Fixed box-shadow values */
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    border: 0.5px solid white;
+}
+
+.logo { /* Use a lowercase class name to match HTML */
+    width: 258px;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #fff;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+    background-color: #e50914;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 5%;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Fixed capitalization */
+    gap: 3%;
+    margin-top: 16%;
+}
